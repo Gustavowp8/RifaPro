@@ -46,6 +46,22 @@ a{
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
+#areaLink{
+    text-align: center;
+}
+
+#entraN{
+    background: #007BEE;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 .conteudo{
     max-width: 999px;
     margin: 0 auto;
@@ -76,4 +92,29 @@ a{
 
 #tTitulo{
     color: #007BEE;
+}
+
+/* hhhhhhh */
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    gap: 1rem 1rem;
+}
+
+.item{
+    background: #f7f7f8;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
 }
