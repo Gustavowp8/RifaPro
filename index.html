@@ -23,10 +23,27 @@
         <input type="password" name="senha" id="senha">
     </div> <br>
 
-    <button id="capaBtn" onclick="logar()">Entrar</button>
+    <button id="capaBtn" onclick="muda()">Entrar</button> <br>
+    <div id="conta">
+        <a href="#">Criar uma conta</a>
+    </div>
    </div>
 
-    
+   
+   <div id="loadUm">
+
+    <div id="loadDois">
+
+        <div class="loading">
+            <div class="circulo"></div>
+          </div>
+          <p>Carregando...</p>
+    </div>
+
+   </div>
+
+   <script src="funcao/index.js"></script>
+
     <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
