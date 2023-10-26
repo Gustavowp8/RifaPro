@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    background: #007BEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#entra{
+    background: #ffffff;
+    color: #007BEE;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.conteudo{
+    max-width: 999px;
+    margin: 0 auto;
+}
+
+#capa{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+}
+
+#capa img{
+    width: 100%;
+}
+
+#capa div{
+    flex: 1 0 200px;
+}
+
+#status{
+    overflow-y: scroll;
+    height: 300px;
+    padding: 5px;
+    border-left: 5px solid #007BEE;
+    border-radius: 20px;
+}
+
+#tTitulo{
+    color: #007BEE;
+}
